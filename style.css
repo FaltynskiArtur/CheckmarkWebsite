@@ -1,0 +1,81 @@
+body {
+  background-color: powderblue;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+h1,
+h2 {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.paragraphMain {
+  text-align: center;
+  font-size: large;
+  width: 400px;
+  margin: auto;
+  border: 1px solid rgb(0, 198, 238);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th:first-child {
+  border-top-left-radius: 10px;
+}
+table th:last-child {
+  border-top-right-radius: 10px;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+th {
+  text-align: left;
+  border-right: 1px solid black;
+  padding: 8px;
+  background-color: #04aa6d;
+}
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+a:link {
+  text-decoration: none;
+  transition: color 0.5s;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:visited {
+  color: gray;
+}
+#hello {
+  text-align: center;
+  color: white;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+.signature {
+  text-align: center;
+}
+.overflowing {
+  overflow: -x auto;
+  overflow-y: auto;
+}

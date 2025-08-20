@@ -5,105 +5,120 @@
     <meta name="author" content="Artur Faltyński" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Checkmark Site</title>
-
-    <style>
-      body {
-        background-color: powderblue;
-      }
-      h1 {
-        color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-          1px 1px 0 #000;
-      }
-
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-      .paragraphMain {
-        color: black;
-        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-          1px 1px 0 #fff;
-      }
-      a {
-        transition: color 0.5s;
-      }
-      a:hover {
-        color: red;
-      }
-    </style>
   </head>
 
   <body>
-    <h1>Webstie about making the checklist for the day</h1>
-
-    <table style="width: 100%">
-      <tr>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-      </tr>
-      <tr>
-        <td>
-          <input
-            type="checkbox"
-            id="firstDayActivity"
-            name="HTML"
-            value="HTML"
-            <br
-          />
-          <label for="firstActivity"> Learning HTML</label><br />
-        </td>
-        <td>
-          <input
-            type="checkbox"
-            id="secondDayActivity"
-            name="HTML2"
-            value="HTML2"
-            <br
-          />
-          <label for="secondActivity"> Learning HTML second time</label><br />
-        </td>
-        <td>
-          <input
-            type="checkbox"
-            id="thirdDayActivity"
-            name="HTML3"
-            value="HTML3"
-            <br
-          />
-          <label for="thirdDayActivity"> Learning HTML third time</label><br />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input type="checkbox" id="cleaning" name="clean" value="clean" <br />
-          <label for="cleaning"> cleaning room</label><br />
-        </td>
-        <td>
-          <input
-            type="checkbox"
-            id="cleaning2"
-            name="clean2"
-            value="clean2"
-            <br
-          />
-          <label for="cleaning2"> cleaning room</label><br />
-        </td>
-        <td>
-          <input
-            type="checkbox"
-            id="cleaning3"
-            name="clean3"
-            value="clean3"
-            <br
-          />
-          <label for="cleaning3"> cleaning room</label><br />
-        </td>
-      </tr>
-    </table>
+    <h1 id="hello">Hello Human</h1>
+    <h2 id="hello">Webstie about making the checklist for the day</h2>
+    <div class="overflowing">
+      <table style="width: 100%">
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="firstDayActivity"
+              name="HTML"
+              value="HTML"
+              <br
+            />
+            <label for="firstActivity"> Learning HTML</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="secondDayActivity"
+              name="HTML2"
+              value="HTML2"
+              <br
+            />
+            <label for="secondActivity"> Learning HTML second time</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="thirdDayActivity"
+              name="HTML3"
+              value="HTML3"
+              <br
+            />
+            <label for="thirdDayActivity"> Learning HTML third time</label
+            ><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning"
+              name="clean"
+              value="clean"
+              <br
+            />
+            <label for="cleaning"> cleaning room</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning2"
+              name="clean2"
+              value="clean2"
+              <br
+            />
+            <label for="cleaning2"> cleaning room</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning3"
+              name="clean3"
+              value="clean3"
+              <br
+            />
+            <label for="cleaning3"> cleaning room</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning4"
+              name="clean4"
+              value="clean4"
+              <br
+            />
+            <label for="cleaning4"> cleaning the kitchen</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning5"
+              name="clean5"
+              value="clean5"
+              <br
+            />
+            <label for="cleaning5"> cleaning the kitchen</label><br />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="cleaning6"
+              name="clean6"
+              value="clean6"
+              <br
+            />
+            <label for="cleaning6"> cleaning the kitchen</label><br />
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <div class="paragraphMain">
       <p>If you checked all the windows, WELL DONE!</p>
@@ -111,13 +126,13 @@
 
     <p>Things to add to the website:</p>
 
-    <ul>
+    <ul class="a">
       <li>Adding the CSS file</li>
       <li>Adding the backend to the website</li>
       <li>More functions</li>
     </ul>
 
-    <footer>
+    <footer class="signature">
       <a href="https://github.com/FaltynskiArtur" target="_blank"
         ><img
           src="LogoGit.svg"
