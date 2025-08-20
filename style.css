@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: powderblue;
   font-family: Verdana, sans-serif;
@@ -76,6 +80,18 @@ ul.a {
   text-align: center;
 }
 .overflowing {
-  overflow: -x auto;
+  overflow-x: auto;
   overflow-y: auto;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
